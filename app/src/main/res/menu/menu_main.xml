@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_action_splash"
+        android:title="@string/don_t_show_splash"
+        android:checkable="true"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>
